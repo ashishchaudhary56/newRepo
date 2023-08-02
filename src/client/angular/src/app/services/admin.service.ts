@@ -5,9 +5,9 @@ import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 
 const getNewAadharDetails =
-  'https://spring.harsh.rathod.dev/AadharApp/admin/applications';
+  'http://localhost:8093/AadharApp/admin/applications';
 const approveNewAadharApplication =
-  'https://spring.harsh.rathod.dev/AadharApp/admin/applications/approvenewAadharApplication';
+  'http://localhost:8093/AadharApp/admin/applications/approvenewAadharApplication';
 
 @Injectable({
   providedIn: 'root',

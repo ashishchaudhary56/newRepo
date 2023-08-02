@@ -4,9 +4,9 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 
-const loginURL = 'https://spring.harsh.rathod.dev/AadharApp/citizens/logIn';
-const signUpURL = 'https://spring.harsh.rathod.dev/AadharApp/citizens/signUp';
-const getUserDetails = 'https://spring.harsh.rathod.dev/AadharApp/citizens/dashboard';
+const loginURL = 'http://localhost:8093/AadharApp/citizens/logIn';
+const signUpURL = 'http://localhost:8093/AadharApp/citizens/signUp';
+const getUserDetails = 'http://localhost:8093/AadharApp/citizens/dashboard';
 
 @Injectable({
   providedIn: 'root',

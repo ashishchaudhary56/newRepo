@@ -4,7 +4,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 
-const applyForAadhar = 'https://spring.harsh.rathod.dev/AadharApp/citizens/issueAadhar';
+const applyForAadhar = 'http://localhost:8093/AadharApp/citizens/issueAadhar';
 
 @Injectable({
   providedIn: 'root',
